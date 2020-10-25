@@ -177,7 +177,7 @@ h2 {
 
 .g_bar{
     width: 6%;
-    transition: all 1s;
+    transition: width 1s 2s;
 }
  .cbar{
         width: 60%;
