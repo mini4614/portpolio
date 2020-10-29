@@ -45,7 +45,7 @@ table {
 }
 
 body {
-    background-color: #60a9ff;
+    background-color:#34495e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +76,7 @@ body {
     max-height: 150px;
     flex-grow: 1;
     margin-left: 80px;
+    object-fit: cover;
     
 }
 .text {
@@ -97,7 +98,7 @@ body {
 }
 
 .contact1, .contact2,.SNS,.button,.intro {
-    border-top: 1px solid #e1f1ff;
+    border-top: 1px solid #B4B4B4;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -121,7 +122,7 @@ body {
  
 }
 .button{
-    background-color:  #60a9ff;
+    background-color:  #34495e;
     border-top: none;
     margin: 0;
     text-align: left;
