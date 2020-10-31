@@ -6,6 +6,10 @@ tab2 = document.querySelector(".js-tab2"),
 close2 = document.querySelector(".js-close2"),
 article2 = document.querySelector(".js-article2"),
 
+tab3 = document.querySelector(".js-tab3"),
+close3 = document.querySelector(".js-close3"),
+article3 = document.querySelector(".js-article3"),
+
 subTitle = tab.querySelector(".subtitle"),
 projects = document.querySelector(".projects"),
 panel = document.querySelector(".js-panel");
@@ -33,15 +37,27 @@ function handleC2Click(event)  {
     panel.classList.remove(BLUR);
 }
 
+function handle3Click(event)  {
+    tab3.classList.add(SHOWING_TAB);
+    panel.classList.add(BLUR);
+}
+function handleC3Click(event)  {
+    tab3.classList.remove(SHOWING_TAB);
+    panel.classList.remove(BLUR);
+}
+
 
 
 function init() {
     
     article.addEventListener("click",handleClick);
-    article2.addEventListener("click",handle2Click);
-
     close.addEventListener("click",handleCClick);
+
+    article2.addEventListener("click",handle2Click);
     close2.addEventListener("click",handleC2Click);
+
+    article3.addEventListener("click",handle3Click);
+    close3.addEventListener("click",handleC3Click);
 }
 
 
