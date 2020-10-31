@@ -178,7 +178,7 @@ h2 {
 
 .g_bar{
     width: 6%;
-    transition: width 1s 2s;
+   
 }
  .cbar{
         width: 60%;
@@ -226,6 +226,7 @@ h2 {
       text-align:center
     }
   .h_graph .g_bar{
+    /* animation: fadeIn 0.5s linear; */
       display:inline-block;
       position:relative;
       height:20px;
@@ -242,3 +243,12 @@ h2 {
       width:40px;
       line-height:20px
   }
+
+  @keyframes fadeIn{
+    from {
+        width: 0%;
+    }
+    to {
+        width: 60%;
+    }
+}
