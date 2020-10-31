@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santfolio - Project</title>
     <link rel="stylesheet" href="css/app-p.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
     />
 </head>
 <body>
-    <div class="panel Portfolio">
+
+    
+    <div class="panel Portfolio js-panel">
         <div class="button">
             <a class="button items about" href="index.html">About Me</a>
             <a class="button items Project" href="Project.html">Project</a>
@@ -22,7 +24,9 @@
         <div class="projects">
             <h1  class="proname">Project</h1>
                 <ul class="Plist">
-                    <li class="article" onClick="location.href='https://github.com/mini4614/Momentum'" target ="_blank">
+
+                    <li class="article js-article" >
+                        <div class="num">1</div>
                         <img class="artiimg" src="img/pro1.PNG" alt="">
                         <div class="text">
                             <span class="title">Momentum - Vanilla JS 를 이용한 Chrome Momentum app</span>
@@ -30,24 +34,51 @@
                         </div>
                     </li>
                    
-                    <!-- <li class="article">
+                    <li class="article js-article2" >
+                        <div class="num">2</div>
                         <img class="artiimg" src="img/pro1.PNG" alt="">
                         <div class="text">
-                            <span class="title">Momentum</span>
-                            <span class="intex">Vanilla JS 를 이용해 만든 Momentum앱. <br> 시간, 날씨, toDoList, 배경화면 등을 구현하였습니다. </span>
+                            <span class="title">두번쨰 - Vanilla JS 를 이용한 Chrome Momentum app</span>
+                            <span class="intex"> <br> 시간, 날씨, toDoList, 배경화면 등을 구현하였습니다. </span>
                         </div>
-                    </li> -->
+                    </li>
                 </ul>
 
         </div>
 
 
         </div>
+        <div class="tab js-tab">
 
-        
-    </div>
+            <div class="tabs ttitle">
+                <div class="subtitle">Momentum - Vanilla JS 를 이용한 Chrome Momentum app</div>
+                <div class="close js-close">X</div>
+            </div>
+            <img class="tabs timg" src="img/img.PNG" alt="">     
+            <div class="tabs ttext">설명</div>
+            <div class="tabs tag">
+                <a class = "gitbtn">github</a>
+                <a class="sitebtn">Site</a>
+            </div>
 
-        
 
+        </div>
+
+        <div class="tab js-tab2">
+            <div class="tabs ttitle">
+                <div class="subtitle">두번쨰 - Vanilla JS 를 이용한 Chrome Momentum app</div>
+                <div class="close js-close2">X</div>
+            </div>
+            <img class="tabs timg" src="img/img.PNG" alt="">     
+            <div class="tabs ttext">설명</div>
+            <div class="tabs tag">
+                <a class = "gitbtn">github</a>
+                <a class="sitebtn">Site</a>
+            </div>
+
+        </div>
+
+    <script src="JS/tab.js"></script>
+   
 </body>
 </html> 
