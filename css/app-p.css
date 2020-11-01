@@ -220,7 +220,7 @@ margin-left: 30px;
 }
 
 .tab .timg {
-    object-fit: cover;
+    object-fit: scale-down;
     width: 60%;
     align-self: center;
 }
