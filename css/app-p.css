@@ -235,7 +235,7 @@ margin-left: 30px;
     flex-grow: 1;
     align-items: center;
     height: 0px;
-
+    max-width: 99%;
 
 }
 
@@ -251,13 +251,18 @@ margin-left: 30px;
 .subtitle {
     text-align: left;
     flex-grow: 2;
-    padding-right: 300px;
+
     margin-left: 10px;
+    min-width: 150px;
 }
 
 .close {
     flex-grow: 1;
     cursor:pointer;
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
 .gitbtn , .sitebtn {
