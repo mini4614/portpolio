@@ -2,4 +2,4 @@
  first version
 
 ## view
-https://mini4614.github.io/portpolio/
+https://morethanmin.github.io/portpolio/
