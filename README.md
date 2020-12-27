@@ -2,4 +2,4 @@
  first version
 
 ## view
-https://morethanmin.github.io/portpolio/
+https://morethanmin.github.io/portfolio/
